@@ -1,0 +1,61 @@
+{
+  "app": "busybar-route-stitch",
+  "sha256": "3557dc6e57ceb2fbc5f62c6a10ab87fad07fa9841c89c30786a8814c2b86ecd5",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.routestitch",
+    "sha256": "3557dc6e57ceb2fbc5f62c6a10ab87fad07fa9841c89c30786a8814c2b86ecd5",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 108.1,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
+  "firmware": "1.3.1",
+  "cell": 16,
+  "lit": 14,
+  "front": [
+    72,
+    16
+  ],
+  "rear": [
+    160,
+    80
+  ],
+  "captures": [
+    {
+      "mode": "classic",
+      "guides": [
+        "stitch-east",
+        "undo-southward-step"
+      ],
+      "tour": "screen-transitions",
+      "input": [
+        [
+          "ok",
+          "ok"
+        ],
+        [
+          "up",
+          "ok",
+          "ok",
+          "start"
+        ],
+        [
+          "down",
+          "up",
+          "ok"
+        ]
+      ],
+      "distinct_frames": [
+        5,
+        9,
+        17
+      ],
+      "rear_frames": 5,
+      "rear_tour": "screen-transitions-rear",
+      "exit": "finished"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "format_version": 1,
   "id": "io.ncoooooper.routestitch",
   "name": "Route Stitch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "api_version": "27.12.0",
   "description": "Draw a closed route through every beacon without reusing an edge on a tiny switchback grid.",
   "author": "ncoooooper"

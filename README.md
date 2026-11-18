@@ -4,6 +4,20 @@ Draw a closed route through every beacon without reusing an edge on a tiny switc
 
 Fit a route puzzle on a five-by-four grid. You can revisit a junction from a different direction, but once a connecting edge is used, you have to get home another way.
 
+## Screen transitions
+
+Follow the route cursor to the beacon and retrace it out of a dead end.
+
+![Route Stitch front display. Follow the route cursor to the beacon and retrace it out of a dead end.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Route Stitch rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Stitch a route to a beacon
 
 1. Start at home on the left of the grid. Turn the wheel to select the direction shown by the letter at the right edge.
@@ -34,6 +48,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
