@@ -2,7 +2,7 @@ import {desk} from "@shared/desk";
 import {wrap,rect,label,type Frame} from "@shared/surface";
 type S={level:number;path:number[];dir:number;status:string};const boards=[[2,8,13],[4,10,18],[6,12,19],[3,11,17]];
 const dx=[1,0,-1,0],dy=[0,1,0,-1];function crossed(a:number[],p:number,q:number){for(let i=1;i<a.length;i++)if((a[i-1]===p&&a[i]===q)||(a[i-1]===q&&a[i]===p))return true;return false;}
-desk<S>({name:"Route Stitch",accent:"#A9DA64",motion:{"motif":"turnout","color":"#A9DA64","shine":"#EFFDB9"},initial:()=>({level:0,path:[0],dir:0,status:"Visit every beacon"}),render:s=>{
+desk<S>({name:"Route Stitch",accent:"#A9DA64",motion:{enabled:false},initial:()=>({level:0,path:[0],dir:0,status:"Visit every beacon"}),render:s=>{
  const art:Frame=[];const pos=s.path[s.path.length-1],beacons=boards[s.level];for(let cell=0;cell<20;cell++){
  const x=4+(cell%5)*11,y=2+Math.floor(cell/5)*4;art.push(rect("p"+cell,x,y,2,2,cell===pos?"#FFFFFFFF":cell===0?"#77CFC6FF":beacons.includes(cell)?"#FFB868FF":"#38484DFF"));}
  for(let i=1;i<s.path.length;i++){const a=s.path[i-1],b=s.path[i],x1=5+(a%5)*11,y1=3+Math.floor(a/5)*4,x2=5+(b%5)*11,y2=3+Math.floor(b/5)*4;
