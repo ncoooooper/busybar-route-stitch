@@ -2,7 +2,7 @@
   "name": "busybar-route-stitch",
   "private": true,
   "version": "0.1.0",
-  "description": "Route Stitch",
+  "description": "Draw a closed route through every beacon without reusing an edge on a tiny switchback grid.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {
