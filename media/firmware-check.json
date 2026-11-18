@@ -13,5 +13,27 @@
   "frames": 54,
   "distinct_frames": 22,
   "exit": "App io.ncoooooper.routestitch exited: finished; heap peak 94.0 of 128 KiB",
-  "sha256": "e310aa08d4b649907cd434da85a1ce4840d0121e37abf6e001efeba63dcd993d"
+  "sha256": "aa9e1d3e0c9103de2964728868db5d2ae31fae5913e7f7cf970f20aaae6e9ee5",
+  "display_test": {
+    "firmware": "1.3.1",
+    "input": "On-device controls",
+    "keys": [
+      [
+        "ok",
+        "ok"
+      ],
+      [
+        "up",
+        "ok",
+        "ok",
+        "start"
+      ]
+    ],
+    "frames": 144,
+    "distinct_by_flow": [
+      13,
+      22
+    ],
+    "exit": "App io.btype.routestitch exited: finished; heap peak 97.7 of 128 KiB"
+  }
 }
